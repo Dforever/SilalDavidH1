@@ -12,5 +12,14 @@ public class h_1_1 {
 				System.out.println("damage due to weapon: " + weapon.getDamage());
 				System.out.print("test weapon examine: ");
 		weapon.examine();
+
+		Armor armor =new Armor("armor",12, 40);
+				System.out.println("armor item name: " + armor.getName());
+				System.out.println("armor item weight: " + armor.getWeight());
+				System.out.println("Defend rate equal to: " + armor.getDefense());
+				System.out.print("test combat examine: ");
+		armor.examine();
+
+
 	}
 }

@@ -1,3 +1,5 @@
+
+//Main class to test every object
 public class h_1_1 {
  public static void main (String args[]) {
   Item combat =new Item("spear",12);
@@ -6,6 +8,7 @@ public class h_1_1 {
   System.out.print("test combat examine: ");
   combat.examine();
 
+  //Prints details for Weapon to screen
   Weapon weapon =new Weapon("axe",12, 30);
     System.out.println("weapon item name: " + weapon.getName());
     System.out.println("weapon item weight: " + weapon.getWeight());
@@ -13,6 +16,7 @@ public class h_1_1 {
     System.out.print("test weapon examine: ");
   weapon.examine();
 
+  //Prints details for Armor to screen
   Armor armor =new Armor("sheild",12, 40);
     System.out.println("armor item name: " + armor.getName());
     System.out.println("armor item weight: " + armor.getWeight());
@@ -20,6 +24,7 @@ public class h_1_1 {
     System.out.print("test armor examine: ");
   armor.examine();
   
+ //Prints details for food to screen
   Food food =new Food("corn",12, 50, 55);
     System.out.println("food item name: " + food.getName());
     System.out.println("food item weight: " + food.getWeight());

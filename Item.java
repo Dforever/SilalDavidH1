@@ -19,6 +19,6 @@ public int getWeight()
 }
 
 public void examine(){
-	System.out.println("Your " + name + " Has a weight of " + weight );
+	System.out.println("Your " + getName() + " Has a weight of " + getWeight() );
 	}
 }
